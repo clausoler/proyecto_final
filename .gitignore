@@ -5,6 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+ 
+# Datasets no utilizados
+/data/raw/olist_geolocation_dataset.csv
+/data/raw/olist_sellers_dataset.csv
+/data/raw/olist_order_reviews_dataset.csv
 
 # Distribution / packaging
 .Python

@@ -1,0 +1,7 @@
+variable,limite_inferior,limite_superior,numero_outliers,porcentaje_outliers
+order_total_value,-110.36,349.21,7775,7.88
+order_products_value,-110.1,305.9,7913,8.02
+order_freight_value,-1.44,39.33,9941,10.08
+total_payment_value,-110.43,349.41,7866,7.91
+customer_delivery_days,-6.66,29.15,4899,5.08
+delay_days,-31.03,8.39,4875,5.05

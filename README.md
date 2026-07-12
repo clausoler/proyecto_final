@@ -1,3 +1,297 @@
+# Análisis Estratégico del Marketplace Brasileño Olist mediante Data Analytics
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Proyecto Final de **Data Analytics** centrado en el análisis estratégico del marketplace brasileño **Olist**, combinando técnicas de preparación de datos, análisis exploratorio, análisis estadístico y Business Intelligence para transformar datos operativos en información útil para la toma de decisiones.
+
+---
+
+## Información general
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Tipo de proyecto** | Data Analytics & Business Intelligence |
+| **Dataset principal** | Brazilian E-Commerce Public Dataset by Olist |
+| **Periodo analizado** | 2016 - 2018 |
+| **Lenguaje principal** | Python |
+| **Visualización** | Power BI |
+| **Público objetivo** | Dirección General |
+| **Estado** | Finalizado |
+
+---
+
+# Dashboard
+
+El proyecto culmina con el desarrollo de un dashboard interactivo en **Power BI** orientado a la Dirección General.
+
+El cuadro de mando se divide en dos páginas complementarias:
+
+## Página 1 · Executive Business Overview
+
+![Dashboard Página 1](dashboard/diseño_dashboard/pagina1.png)
+
+Esta página proporciona una visión global del negocio mediante:
+
+- KPIs ejecutivos.
+- Evolución temporal de pedidos y ventas.
+- Categorías con mayor facturación.
+- Distribución geográfica de las ventas.
+- Segmentación económica.
+- Métodos de pago.
+
+---
+
+## Página 2 · Customer & Operations Insights
+
+![Dashboard Página 2](dashboard/diseño_dashboard/pagina2.png)
+
+La segunda página profundiza en el comportamiento operativo del marketplace mediante:
+
+- Indicadores logísticos.
+- Comportamiento temporal de compra.
+- Distribución horaria y semanal.
+- Composición de los pedidos.
+- Comparativa logística.
+- Retrasos por segmento económico.
+
+---
+
+# Descripción del proyecto
+
+El comercio electrónico genera diariamente millones de registros relacionados con pedidos, clientes, productos, pagos y procesos logísticos. La correcta explotación de esta información permite comprender el comportamiento del negocio, detectar oportunidades de mejora y apoyar la toma de decisiones estratégicas.
+
+Este proyecto desarrolla un análisis integral del marketplace brasileño **Olist**, utilizando técnicas de **Data Analytics** para transformar datos operativos en conocimiento de negocio.
+
+Para ello se integran múltiples fuentes de información, se construye un dataset analítico mediante procesos de limpieza y *Feature Engineering*, se realiza un análisis exploratorio y estadístico y, finalmente, se desarrolla un dashboard interactivo en Power BI diseñado para facilitar el seguimiento de los principales indicadores del marketplace.
+
+El proyecto reproduce el flujo completo habitual de un proyecto profesional de análisis de datos, desde la preparación de los datos hasta la comunicación de resultados.
+
+---
+
+# Objetivos
+
+## Objetivo general
+
+Realizar un análisis estratégico del marketplace brasileño Olist mediante técnicas de Data Analytics para comprender el comportamiento del negocio y construir una herramienta visual que facilite la toma de decisiones.
+
+---
+
+## Objetivos específicos
+
+- Explorar la estructura y calidad de los datasets originales.
+- Detectar valores nulos, duplicados e inconsistencias.
+- Construir un dataset analítico único mediante procesos ETL.
+- Desarrollar nuevas variables mediante técnicas de Feature Engineering.
+- Analizar la evolución temporal de pedidos y ventas.
+- Estudiar el comportamiento de compra de los clientes.
+- Analizar la estructura económica de los pedidos.
+- Evaluar el rendimiento logístico del marketplace.
+- Comprobar la consistencia entre pedidos y pagos.
+- Construir un dashboard interactivo en Power BI.
+- Extraer conclusiones estratégicas orientadas al negocio.
+
+---
+
+# Dataset utilizado
+
+Para el desarrollo del proyecto se utilizaron dos fuentes principales de información.
+
+## 1. Brazilian E-Commerce Public Dataset by Olist
+
+Dataset público disponible en **Kaggle** que recoge información real de un marketplace brasileño entre los años **2016 y 2018**.
+
+Incluye información sobre:
+
+- Clientes
+- Pedidos
+- Productos
+- Artículos
+- Pagos
+- Categorías de productos
+
+---
+
+## 2. Brazilian Public Holidays
+
+Calendario oficial de festivos nacionales de Brasil.
+
+Este dataset se incorporó al modelo analítico para estudiar el posible impacto de los días festivos sobre el comportamiento de compra de los clientes.
+
+---
+
+## Tablas utilizadas
+
+| Tabla | Descripción |
+|--------|-------------|
+| Customers | Información geográfica de los clientes |
+| Orders | Información general de los pedidos |
+| Order Items | Productos incluidos en cada pedido |
+| Payments | Información sobre los pagos realizados |
+| Products | Información de los productos vendidos |
+| Product Categories | Traducción de categorías |
+| Holidays | Calendario de festivos nacionales |
+
+---
+
+# Tecnologías utilizadas
+
+El proyecto combina diferentes herramientas ampliamente utilizadas en proyectos profesionales de análisis de datos.
+
+| Herramienta | Utilidad |
+|-------------|----------|
+| Python | Procesamiento y análisis de datos |
+| Pandas | Manipulación de datos |
+| NumPy | Operaciones numéricas |
+| Matplotlib | Visualización |
+| Seaborn | Visualización estadística |
+| Power BI | Desarrollo del dashboard |
+| Git | Control de versiones |
+| GitHub | Publicación del proyecto |
+| Visual Studio Code | Desarrollo del proyecto |
+| Jupyter Notebook | Desarrollo del análisis |
+
+---
+
+# Estructura del proyecto
+
+```text
+Proyecto_Final_Data_Analytics/
+│
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_exploracion_datos.ipynb
+│   ├── 02_limpieza_transformacion.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_analisis_exploratorio.ipynb
+│   └── 05_analisis_estadistico.ipynb
+│
+├── src/
+│
+├── dashboard/
+│
+├── reports/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+La estructura del repositorio sigue una organización modular que facilita la reutilización del código, la reproducibilidad del análisis y la separación entre datos, notebooks, scripts, dashboard y documentación.
+
+---
+
+# Metodología
+
+El proyecto se desarrolló siguiendo el flujo completo de un proceso profesional de **Data Analytics**.
+
+```text
+Datos originales
+        │
+        ▼
+Exploración inicial
+        │
+        ▼
+Limpieza y transformación
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Dataset analítico
+        │
+        ├──────────────┐
+        ▼              ▼
+EDA      Análisis estadístico
+        │              │
+        └──────┬───────┘
+               ▼
+Dashboard Power BI
+               ▼
+Informe Final
+```
+
+Las principales fases desarrolladas fueron:
+
+1. Exploración inicial de los datos.
+2. Validación de la calidad del modelo.
+3. Limpieza y transformación de los datasets.
+4. Construcción del dataset analítico.
+5. Análisis Exploratorio de Datos (EDA).
+6. Análisis Estadístico.
+7. Desarrollo del dashboard en Power BI.
+8. Elaboración del informe final.
+
+---
+
+# Principales resultados
+
+El análisis permitió obtener una visión completa del funcionamiento del marketplace.
+
+Entre los principales resultados destacan:
+
+- Más de **99.000 pedidos** analizados.
+- Más de **96.000 clientes únicos**.
+- Facturación superior a **15,8 millones de BRL**.
+- Ticket medio de **160,58 BRL**.
+- **97,02 %** de pedidos entregados correctamente.
+- **92,13 %** de entregas realizadas dentro del plazo previsto.
+- Los segmentos de mayor valor generan aproximadamente dos tercios de la facturación.
+- Más del **90 %** de los pedidos contienen un único artículo.
+- Los festivos nacionales presentan un impacto reducido sobre el comportamiento de compra.
+
+---
+
+# Dashboard en Power BI
+
+El dashboard se diseñó para proporcionar una visión ejecutiva del negocio mediante dos páginas complementarias.
+
+## Executive Business Overview
+
+Incluye:
+
+- KPIs principales.
+- Evolución mensual de ventas y pedidos.
+- Ventas por categoría.
+- Ventas por estado.
+- Segmentación económica.
+- Métodos de pago.
+
+---
+
+## Customer & Operations Insights
+
+Incluye:
+
+- KPIs logísticos.
+- Distribución por día de la semana.
+- Distribución horaria.
+- Composición de los pedidos.
+- Retrasos por segmento económico.
+- Comparativa logística entre pedidos en plazo y retrasados.
+
+El dashboard incorpora navegación entre páginas, filtros interactivos y visualizaciones sincronizadas para facilitar el análisis dinámico de la información.
+
+---
+
+# Conclusiones
+
+El proyecto demuestra cómo un proceso completo de Data Analytics permite transformar múltiples fuentes de datos operativos en información estratégica para la toma de decisiones.
+
+El análisis evidencia que Olist constituye un marketplace consolidado, con un elevado volumen de actividad y una logística altamente eficiente. Asimismo, identifica oportunidades relacionadas con el incremento del valor medio de la cesta de compra, la fidelización de clientes de alto valor y la expansión hacia regiones con menor presencia comercial.
+
+La combinación de Python y Power BI permitió construir una solución analítica completa, capaz de integrar la preparación de datos, el análisis y la comunicación de resultados mediante un dashboard interactivo.
+ 
+  
 # Diccionario de Variables del Dataset Final
 
 ## Variables originales
